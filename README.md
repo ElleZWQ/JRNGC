@@ -13,7 +13,7 @@ Official implementation of the paper [Jacobian Regularizer-based Neural Granger 
 - We evaluate our method on commonly used benchmark datasets with extensive experiments. Our method can outperform state-of-the-art baselines and show an excellent ability to discover Granger causality, especially for sparse causality.
 <hr />
 
-## Performance on the benchmark datasets CausalTime
+## Performance on the benchmark datasets CausalTime^[1]
 
 **Table**. Performance benchmarking of baseline TSCD algorithms on the CausalTime datasets. We highlight the best and the second best in bold and with underlining, respectively.
 | Methods | AQI (AUROC)          | Traffic (AUROC)      | Medical (AUROC)      | AQI (AUPRC)          | Traffic (AUPRC)      | Medical (AUPRC)      |
