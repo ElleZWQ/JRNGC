@@ -1,0 +1,48 @@
+----Tt is running seed : 4----------------------------
+----Tt is running causal with lag use jaco----------------------------
+used_time:8.164957
+the struct_loss is JF
+it is using the yaml file:./F_var.yaml 
+f1: 0.976, f1_eps: 0.207
+acc: 0.998, acc_eps: 0.269
+auroc: 1.000
+auprc: 0.998
+
+best_loss:2.63784e-02, train_loss:2.26729e-02, eval_loss:2.26743e-02
+----------------------------
+----Tt is running seed : 4----------------------------
+----Tt is running causal no lag use jaco----------------------------
+used_time:8.164957
+the struct_loss is JF
+it is using the yaml file:./F_var.yaml 
+f1: 0.976, f1_eps: 0.207
+acc: 0.990, acc_eps: 0.269
+auroc: 0.999
+auprc: 0.998
+
+best_loss:2.63784e-02, train_loss:2.26729e-02, eval_loss:2.26743e-02
+----------------------------
+----Tt is running seed : 4----------------------------
+----Tt is running causal with lag use jaco----------------------------
+used_time:134.169906
+the struct_loss is JL1
+it is using the yaml file:./L1_var.yaml 
+f1: 1.000, f1_eps: 0.149
+acc: 1.000, acc_eps: 0.149
+auroc: 1.000
+auprc: 1.000
+
+best_loss:3.67623e-02, train_loss:2.44091e-02, eval_loss:2.44143e-02
+----------------------------
+----Tt is running seed : 4----------------------------
+----Tt is running causal no lag use jaco----------------------------
+used_time:134.169906
+the struct_loss is JL1
+it is using the yaml file:./L1_var.yaml 
+f1: 1.000, f1_eps: 0.149
+acc: 1.000, acc_eps: 0.149
+auroc: 1.000
+auprc: 1.000
+
+best_loss:3.67623e-02, train_loss:2.44091e-02, eval_loss:2.44143e-02
+----------------------------

@@ -1,0 +1,50 @@
+it is running var Nodes 10
+the seed is 0
+the JRNGC JF  params:3110
+It is using the yaml file:./F_var.yaml
+========================
+it is running var Nodes 10
+the seed is 0
+the JRNGC JF  params:3110
+It is using the yaml file:./F_var.yaml
+========================
+it is running var Nodes 10
+the seed is 0
+the JRNGC JF  params:3110
+It is using the yaml file:./F_var.yaml
+========================
+it is running var Nodes 10
+the seed is 0
+the JRNGC JF  params:3110
+It is using the yaml file:./F_var.yaml
+========================
+it is running var Nodes 10
+the seed is 0
+the JRNGC JF  params:3110
+It is using the yaml file:./F_var.yaml
+========================
+it is running var Nodes 10
+the seed is 0
+the JRNGC JL1  params:3110
+It is using the yaml file:./L1_var.yaml
+========================
+it is running var Nodes 10
+the seed is 0
+the JRNGC JL1  params:3110
+It is using the yaml file:./L1_var.yaml
+========================
+it is running var Nodes 10
+the seed is 0
+the JRNGC JL1  params:3110
+It is using the yaml file:./L1_var.yaml
+========================
+it is running var Nodes 10
+the seed is 0
+the JRNGC JL1  params:3110
+It is using the yaml file:./L1_var.yaml
+========================
+it is running var Nodes 10
+the seed is 0
+the JRNGC JL1  params:3110
+It is using the yaml file:./L1_var.yaml
+========================
