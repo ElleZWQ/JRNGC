@@ -42,7 +42,7 @@ Official implementation of the paper [Jacobian Regularizer-based Neural Granger 
    python demo.py --yaml_dir $yamlpath --data_type $data_type
 ```
     
-**Remark**: you can also run the demo.py directly
+**Remark**: you can also run the demo.py directly. The details of hyperparameters can be seen in appendix.pdf
 <hr />
 
 ## Citation
