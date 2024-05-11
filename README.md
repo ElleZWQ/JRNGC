@@ -42,7 +42,7 @@ The results indicate that, among the methods evaluated in this benchmark dataset
 
 
 ## Running the demo code 
-```python
+```bash
 # pip environment
    conda create -n jrngc python=3.8
    conda activate jrngc
