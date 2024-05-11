@@ -15,17 +15,7 @@ Official implementation of the paper [Jacobian Regularizer-based Neural Granger 
 
 ## Performance on the benchmark datasets CausalTime
 
-"CausalTime: Realistically Generated Time-series for Benchmarking of Causal Discovery" [1]. This dataset stands out as a remarkable tool for benchmarking causal discovery algorithms. We have incorporated the performance of our method on the benchmark datasets into **Table RA** for a comprehensive comparison.
-
-*Notably, aside from our algorithm, all other results in the table were directly copied from CausalTime [3].*
-
-The results indicate that, among the methods evaluated in this benchmark dataset, JRNGC-F, along with CUTS+ and LCCM, consistently emerges as top performers. We would like to draw attention to several key findings for **our method**:
-
-**Achieve New SOTA performance**: Our proposed algorithm, JRNGC-F, showcases exceptional performance on the AQI and Traffic dataset, as evidenced by its AUROC metrics, achieving scores of AUROC **0.9279 ± 0.0011** and AUROC **0.7294± 0.0046** , respectively. 
-
-**Stable and Efficient**: When juxtaposed with leading approaches such as CUTS+ and LCCM, JRNGC-F not only outperforms in certain scenarios but also demonstrates a more stable and uniform performance across various datasets and evaluation metrics. A point of distinction for our algorithm is its ability to circumvent performance dips on specific datasets—a noteworthy example being its avoidance of the low performance observed with LCCM's AUPRC on AQI and CUTS+'s AUROC on Traffic. Despite not securing the highest marks on the Medical dataset under both AUROC and AUPRC metrics, JRNGC-F's exhibited stability and high-level performance remain impressive. In comparison to its counterparts, **JRNGC-F maintains a clear distance from any subpar metric scores near 0.5, highlighting its reliability and robustness**.
-
-**Table RA**. Performance benchmarking of baseline TSCD algorithms on the CausalTime datasets. We highlight the best and the second best in bold and with underlining, respectively.
+**Table**. Performance benchmarking of baseline TSCD algorithms on the CausalTime datasets. We highlight the best and the second best in bold and with underlining, respectively.
 | Methods | AQI (AUROC)          | Traffic (AUROC)      | Medical (AUROC)      | AQI (AUPRC)          | Traffic (AUPRC)      | Medical (AUPRC)      |
 |------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|
 | CUTS    | 0.6013 ± 0.0038      | <u>0.6238 ± 0.0179</u>     | 0.3739 ± 0.0297      | 0.5096 ± 0.0362      | 0.1525 ± 0.0226      | 0.1537 ± 0.0039      |
@@ -53,6 +43,11 @@ The results indicate that, among the methods evaluated in this benchmark dataset
 ```
     
 **Remark**: you can also run the demo.py directly
+<hr />
 
+## Citation
+If you use our work, please consider citing:
+```bibtex
+```
 ## References
 [1] CausalTime: Realistically Generated Time-series for Benchmarking of Causal Discovery. *International Conference on Learning Representations (ICLR), 2024
