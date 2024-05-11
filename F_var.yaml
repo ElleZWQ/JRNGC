@@ -1,0 +1,16 @@
+d: 10
+dropout: 0.2
+hidden: 50
+lag: 5
+layers: 0
+lr: !!float 1e-3
+max_iter: 10000
+verbose: true
+jacobian_lam: !!float 0.01
+struct_loss_choice: 'JF'
+trials: 5
+true_lag: 3
+noise_scale: 1
+JFn: 1
+
+#data_type var

@@ -1,0 +1,16 @@
+igraph==0.10.4
+matplotlib==3.7.1
+networkx==3.1
+pandas==2.0.1
+Pillow==9.4.0
+PyYAML==6.0
+scikit-learn==1.2.2
+scipy==1.10.1
+seaborn==0.12.2
+six
+tensorboard==2.13.0
+torch==1.12.1
+torchaudio==0.12.1
+torchvision==0.13.1
+tqdm==4.65.0
+#python 3.8.16 GPU 3090 23.9G MEM
