@@ -49,5 +49,7 @@ Official implementation of the paper [Jacobian Regularizer-based Neural Granger 
 If you use our work, please consider citing:
 ```bibtex
 ```
+## Contact
+If you have any questions or feedback, please feel free to contact us at Zhouwanqistu@163.com or baishuanghao@stu.xjtu.edu.cn
 ## References
 [1] CausalTime: Realistically Generated Time-series for Benchmarking of Causal Discovery. *International Conference on Learning Representations (ICLR), 2024
