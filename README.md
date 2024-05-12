@@ -49,7 +49,8 @@ Official implementation of the paper [Jacobian Regularizer-based Neural Granger 
 **Remark**: you can also run the demo.py directly. The details of hyperparameters can be seen in appendix.pdf
 <hr />
 ## Additional experiment part
-If you are interested in DAG regularization on the input-output Jacobian matrix, you can add following part in our model:
+If you are interested in DAG regularization on the input-output Jacobian matrix, you can add the following part to our model:
+
 ```python
 def h_func(self,Jacobian_matrix):
     "Constrain 2-norm-squared of the Jacobian matrix along m1 dim to be a DAG"
