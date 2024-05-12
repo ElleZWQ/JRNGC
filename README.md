@@ -58,4 +58,4 @@ If you have any questions or feedback, please feel free to contact us at Zhouwan
 
 ## Acknowledgments
 We would like to thank DREAM3 and DREAM4 organizers for their tireless efforts.
-Please download the dataset follow the [webpage](https://gnw.sourceforge.net/dreamchallenge.html#dream4challenge) and cite them if you use the dataset!
+Please download the dataset following the [webpage](https://gnw.sourceforge.net/dreamchallenge.html#dream4challenge) and cite them if you use the dataset!
