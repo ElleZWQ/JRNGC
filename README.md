@@ -48,7 +48,29 @@ Official implementation of the paper [Jacobian Regularizer-based Neural Granger 
     
 **Remark**: you can also run the demo.py directly. The details of hyperparameters can be seen in appendix.pdf
 <hr />
-
+## Additional experiment part
+If you are interested in DAG regularization on the input-output Jacobian matrix, you can add following part in our model:
+```python
+def h_func(self,Jacobian_matrix):
+    "Constrain 2-norm-squared of the Jacobian matrix along m1 dim to be a DAG"
+    h = trace_expm(Jacobian_matrix) - self.d  #DAG-regularizer
+    return h
+def compute_jacobian_DAG_loss(self,x):
+    """
+    x: [batch, d, T=lag]
+    """
+    if 2 == len(x.shape): x.unsqueeze_(0)
+    x = x.transpose(1, 2).unfold(1, self.lag, 1)
+    x = x.reshape(x.shape[0] * x.shape[1], x.shape[2], x.shape[3])
+    jac = self.jacobian_causal_train(x)
+    
+    variable_jac = torch.mean(jac,dim=2)
+    h = self.h_func(variable_jac) #[effect,cause]
+    jac_loss = h *self.jacobian_lam
+    return jac_loss
+elif model.struct_loss_choice =="JR_DAG":
+        struct_loss = model.compute_jacobian_DAG_loss(x)
+```
 ## Citation
 If you use our work, please consider citing:
 ```bibtex
