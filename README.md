@@ -47,7 +47,7 @@ Official implementation of the paper [Jacobian Regularizer-based Neural Granger 
 ```
     
 **Remark 1**: you can also run the demo.py directly. The details of hyperparameters can be seen in appendix.pdf
-<hr />
+
 
 **Remark 2**:
 if you are interested in DAG regularization on the input-output Jacobian matrix, you can add the following part to our model:
@@ -73,6 +73,9 @@ def compute_jacobian_DAG_loss(self,x):
 elif model.struct_loss_choice =="JR_DAG":
         struct_loss = model.compute_jacobian_DAG_loss(x)
 ```
+
+<hr />
+
 ## Citation
 If you use our work, please consider citing:
 ```bibtex
