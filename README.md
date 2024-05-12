@@ -17,7 +17,7 @@ Official implementation of the paper [Jacobian Regularizer-based Neural Granger 
 
 **Table**. Performance benchmarking of baseline TSCD algorithms on the [CausalTime](https://openreview.net/pdf?id=iad1yyyGme) datasets. We highlight the best and the second best in bold and with underlining, respectively.
 | Methods | AQI (AUROC)          | Traffic (AUROC)      | Medical (AUROC)      | AQI (AUPRC)          | Traffic (AUPRC)      | Medical (AUPRC)      |
-|------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|
+|--------|---------------------|--------------------|--------------------|---------------------|--------------------|--------------------|
 | GC     | 0.4538 ± 0.0377     | 0.4191 ± 0.0310    | 0.5737 ± 0.0338    | 0.6347 ± 0.0158     | 0.2789 ± 0.0018    | 0.4213 ± 0.0281    |
 | SVAR   | 0.6225 ± 0.0406     | 0.6329 ± 0.0047    | 0.7130 ± 0.0188    | 0.7993 ± 0.0175     | 0.5845 ± 0.0021    | 0.6774 ± 0.0358    |
 | N.NTS  | 0.5729 ± 0.0229     | 0.6329 ± 0.0335    | 0.5019 ± 0.0682    | 0.7100 ± 0.0228     | 0.5770 ± 0.0542    | 0.4567 ± 0.0162    |
