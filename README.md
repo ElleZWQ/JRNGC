@@ -50,7 +50,8 @@ Official implementation of the paper [Jacobian Regularizer-based Neural Granger 
 
 
 **Remark 2**:
-if you are interested in DAG regularization on the input-output Jacobian matrix, you can add the following part to our model:
+if you are interested in DAG regularization on the input-output Jacobian matrix, you can add the following part to our model. Regarding as the trace_expm function, please refer to 
+to code [Notears](https://github.com/xunzheng/notears).
 
 ```python
 def h_func(self,Jacobian_matrix):
