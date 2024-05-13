@@ -78,15 +78,14 @@ elif model.struct_loss_choice =="JR_DAG":
 <hr />
 
 ## Citation
-If you use our work, please consider citing:
+If you think our work is useful, please consider citing:
 ```bibtex
-@inproceedings{
-anonymous2024jacobian,
+@inproceedings{zhou2024jacobian,
 title={Jacobian Regularizer-based Neural Granger Causality},
-author={Anonymous},
-booktitle={Forty-first International Conference on Machine Learning},
+author={Zhou, Wanqi and Bai, Shuanghao and Yu, Shujian and Zhao, Qibin and Chen, Badong},
+booktitle={International Conference on Machine Learning},
 year={2024},
-url={https://openreview.net/forum?id=FG5hjRBtpm}
+organization={PMLR}
 }
 ```
 ## Contact
