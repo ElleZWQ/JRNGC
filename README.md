@@ -1,5 +1,5 @@
 ## Jacobian Regularizer-based Neural Granger Causality [[ICML 2024]](https://openreview.net/group?id=ICML.cc/2024)
-Official implementation of the paper [Jacobian Regularizer-based Neural Granger Causality].
+Official implementation of the paper "[Jacobian Regularizer-based Neural Granger Causality](http://arxiv.org/abs/2405.08779)".
 <hr />
 
 ## Highlights
