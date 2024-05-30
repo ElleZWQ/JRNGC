@@ -71,6 +71,8 @@ def compute_jacobian_DAG_loss(self,x):
     h = self.h_func(variable_jac) #[effect,cause]
     jac_loss = h *self.jacobian_lam
     return jac_loss
+
+## Please add the following code to our model as our loss code style if you need the DAG regularizer on the input-output Jacobian matrix!!!
 elif model.struct_loss_choice =="JR_DAG":
         struct_loss = model.compute_jacobian_DAG_loss(x)
 ```
