@@ -1,7 +1,7 @@
 import torch
 
 from tgc.model import JRNGC
-from tgc.data import lorenz_96, var_stable
+from tgc.data import lorenz_96, var_stable,fmri_net_sim, dream3_trajectories,dream4_trajectories
 from tgc.metrics import two_classify_metrics, remove_self_connection
 from tgc.runcase import batch_trainer, case_fix, print_case_list
 
