@@ -1,5 +1,11 @@
-## Jacobian Regularizer-based Neural Granger Causality [[ICML 2024]](https://openreview.net/group?id=ICML.cc/2024)
+## Jacobian Regularizer-based Neural Granger Causality [ICML 2024]
+
+[![arXiv](https://img.shields.io/badge/arXiv-2312.09553v2-b31b1b.svg)](https://arxiv.org/abs/2405.08779)
+
 Official implementation of the paper "[Jacobian Regularizer-based Neural Granger Causality](https://proceedings.mlr.press/v235/zhou24a.html)".
+
+Authors: [Wanqi Zhou](https://ellezwq.github.io/), [Shuanghao Bai](https://baishuanghao.github.io/), [Shujian Yu](https://sjyucnel.github.io/), [Qibin Zhao](https://qibinzhao.github.io/), [Badong Chen](https://scholar.google.com/citations?user=mq6tPX4AAAAJ&hl=zh-CN&oi=sra).
+
 <hr />
 
 ## Highlights
