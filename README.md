@@ -1,6 +1,6 @@
 ## Jacobian Regularizer-based Neural Granger Causality [ICML 2024]
 
-[![arXiv](https://img.shields.io/badge/arXiv-2312.09553v2-b31b1b.svg)](https://arxiv.org/abs/2405.08779)
+[![arXiv](https://img.shields.io/badge/arXiv-2405.08779-b31b1b.svg)](https://arxiv.org/abs/2405.08779)
 
 Official implementation of the paper "[Jacobian Regularizer-based Neural Granger Causality](https://proceedings.mlr.press/v235/zhou24a.html)".
 
