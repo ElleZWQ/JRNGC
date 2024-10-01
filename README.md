@@ -16,8 +16,9 @@ Authors: [Wanqi Zhou](https://ellezwq.github.io/), [Shuanghao Bai](https://baish
 > **Abstract:** *With the advancement of neural networks, diverse methods for neural Granger causality have emerged, which demonstrate proficiency in handling complex data, and nonlinear relationships. However, the existing framework of neural Granger causality has several limitations. It requires the construction of separate predictive models for each target variable, and the relationship depends on the sparsity on the weights of the first layer, resulting in challenges in effectively modeling complex relationships between variables as well as unsatisfied estimation accuracy of Granger causality. Moreover, most of them cannot grasp full-time Granger causality. To address these drawbacks, we propose a **J**acobian **R**egularizer-based **N**eural **G**ranger **C**ausality (**JRNGC**) approach, a straightforward yet highly effective method for learning multivariate summary Granger causality and full-time Granger causality by constructing a single model for all target variables. Specifically, our method eliminates the sparsity constraints of weights by leveraging an input-output Jacobian matrix regularizer, which can be subsequently represented as the weighted causal matrix in the post-hoc analysis. Extensive experiments show that our proposed approach achieves competitive performance with the state-of-the-art methods for learning summary Granger causality and full-time Granger causality while maintaining lower model complexity and high scalability.* 
 
 <details>
-  
-## Main Contributions
+
+<summary>Main Contributions</summary>
+
 - To our best knowledge, this is the first work to harness a single NN model with shared hidden layers for multivariate Granger causality analysis. 
 - We propose a novel neural network framework to learn  Granger causality by incorporating an input-output Jacobian regularizer in the training objective. 
 - Our method can not only obtain the summary Granger causality but also the full-time Granger causality.
@@ -45,8 +46,7 @@ Authors: [Wanqi Zhou](https://ellezwq.github.io/), [Shuanghao Bai](https://baish
 | eSRU    | 0.8229 ± 0.0317      | 0.5987 ± 0.0192| 0.7559 ± 0.0365 | 0.7223 ± 0.0317      | 0.4886 ± 0.0338| <u>0.7352 ± 0.0600</u>|
 | SCGL    | 0.4915 ± 0.0476      | 0.5927 ± 0.0553      | 0.5019 ± 0.0224      | 0.3584 ± 0.0281      | 0.4544 ± 0.0315      | 0.4833 ± 0.0185      |
 | TCDF    | 0.4148 ± 0.0207      | 0.5029 ± 0.0041      | 0.6329 ± 0.0384      | 0.6527 ± 0.0087      | 0.3637 ± 0.0048      | 0.5544 ± 0.0313      |
-|**JRNGC-F (ours)**   | **0.9279 ± 0.0011** | **0.7294± 0.0046** | 0.7540± 0.0040 | 0.7828± 0.0020 | <u>0.5940± 0.0067</u> | 0.7261± 0.0016
-
+|**JRNGC-F (ours)**   | **0.9279 ± 0.0011** | **0.7294± 0.0046** | 0.7540± 0.0040 | 0.7828± 0.0020 | <u>0.5940± 0.0067</u> | 0.7261± 0.0016         |
 
 
 ## Running the demo code 
@@ -59,6 +59,7 @@ Authors: [Wanqi Zhou](https://ellezwq.github.io/), [Shuanghao Bai](https://baish
 # run the demo.py
    python demo.py --yaml_dir $yamlpath --data_type $data_type
 ```
+
     
 **Remark 1**: you can also run the demo.py directly. The details of hyperparameters can be seen in appendix.
 
@@ -92,7 +93,6 @@ elif model.struct_loss_choice =="JR_DAG":
         struct_loss = model.compute_jacobian_DAG_loss(x)
 ```
 
-<hr />
 
 ## Citation
 If you think our work is useful, please consider citing:
@@ -105,8 +105,10 @@ year={2024},
 organization={PMLR}
 }
 ```
+
 ## Contact
-If you have any questions or feedback, please feel free to contact us at Zhouwanqistu@163.com or baishuanghao@stu.xjtu.edu.cn
+If you have any questions or feedback, please create an issue on this repository or feel free to contact us at Zhouwanqistu@163.com.
+
 
 ## Acknowledgments
 We would like to thank DREAM3 and DREAM4 organizers for their tireless efforts.
