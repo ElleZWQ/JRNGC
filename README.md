@@ -9,18 +9,23 @@ Authors: [Wanqi Zhou](https://ellezwq.github.io/), [Shuanghao Bai](https://baish
 <hr />
 
 ## Highlights
-<p align="justify">
+<div style="text-align: center;">
   <img src="method.jpg" alt="main figure" width="80%">
 </p>
 
 > **Abstract:** *With the advancement of neural networks, diverse methods for neural Granger causality have emerged, which demonstrate proficiency in handling complex data, and nonlinear relationships. However, the existing framework of neural Granger causality has several limitations. It requires the construction of separate predictive models for each target variable, and the relationship depends on the sparsity on the weights of the first layer, resulting in challenges in effectively modeling complex relationships between variables as well as unsatisfied estimation accuracy of Granger causality. Moreover, most of them cannot grasp full-time Granger causality. To address these drawbacks, we propose a **J**acobian **R**egularizer-based **N**eural **G**ranger **C**ausality (**JRNGC**) approach, a straightforward yet highly effective method for learning multivariate summary Granger causality and full-time Granger causality by constructing a single model for all target variables. Specifically, our method eliminates the sparsity constraints of weights by leveraging an input-output Jacobian matrix regularizer, which can be subsequently represented as the weighted causal matrix in the post-hoc analysis. Extensive experiments show that our proposed approach achieves competitive performance with the state-of-the-art methods for learning summary Granger causality and full-time Granger causality while maintaining lower model complexity and high scalability.* </p>
+
+<details>
+  
 ## Main Contributions
 - To our best knowledge, this is the first work to harness a single NN model with shared hidden layers for multivariate Granger causality analysis. 
 - We propose a novel neural network framework to learn  Granger causality by incorporating an input-output Jacobian regularizer in the training objective. 
 - Our method can not only obtain the summary Granger causality but also the full-time Granger causality.
 - An efficient Jacobian regularizer algorithm is developed to solve the computational issue that occurred in ${L_1}$ loss on input-output Jacobian matrix. 
 - We evaluate our method on commonly used benchmark datasets with extensive experiments. Our method can outperform state-of-the-art baselines and show an excellent ability to discover Granger causality, especially for sparse causality.
-<hr />
+  
+</details>
+
 
 ## Performance on the benchmark [CausalTime](https://openreview.net/pdf?id=iad1yyyGme) datasets.
 
